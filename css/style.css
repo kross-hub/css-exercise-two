@@ -1,6 +1,19 @@
 body {
-  background-color: #ff0000;
+  background-color: #FAFBFE;
   color: #0000FF;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+}
+h3 {font-size: 2em; /*32px */
+}
+p {
+  font-size: 100%; /* 16px */
+  line-height: normal;
+}
+Figcaption {font-size: 100%; /* 16px */
 }
 
 nav {
@@ -8,6 +21,14 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+body {
+  background: #fff url(images/bloc logo.png) no-repeat top left;
+}
+
+body {
+  background: #fff url(images/instagram-pic.jpg) no-repeat middle;
 }
 
 .logo {
