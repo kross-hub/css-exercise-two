@@ -1,19 +1,80 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  background-color: #FAFBFE;
-  color: #0000FF;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+body {
+  background-color: #f2f2ed;
+  color: #2b2829;
   font-size: 16px;
 }
 
 h1 {
-  font-size: 2em; /* 32px */
+  font-size: 2.5em;
 }
-h3 {font-size: 2em; /*32px */
+
+h3 {
+  font-size: 1.5em;
 }
+
+h1, h3 {
+    line-height: 1.5em;
+}
+
 p {
-  font-size: 100%; /* 16px */
-  line-height: normal;
+  font-size: 1em;
+  line-height: 1.5em;
+    padding-bottom: 0.9em;
 }
-Figcaption {font-size: 100%; /* 16px */
+
+nav {
+  font-size: 0.75em;
 }
 
 nav {
@@ -21,14 +82,6 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
-}
-
-body {
-  background: #fff url(images/bloc logo.png) no-repeat top left;
-}
-
-body {
-  background: #fff url(images/instagram-pic.jpg) no-repeat middle;
 }
 
 .logo {
@@ -71,3 +124,12 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link {color:#144fff; } /* unvisited */
+a:visited {color:#8797c6; } /* visited */
+a:hover {color:#0075c4; } /* mouse over */
+a:active {color:#cecece; } /* selected */
